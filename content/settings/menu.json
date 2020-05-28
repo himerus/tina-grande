@@ -1,6 +1,10 @@
 {
   "menuItems": [
     {
+      "label": "News & Insights",
+      "link": "posts"
+    },
+    {
       "label": "Offerings",
       "link": "offerings"
     },
