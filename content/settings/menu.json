@@ -17,11 +17,7 @@
       "link": "/about"
     },
     {
-      "label": "Blog",
-      "link": "/blog"
-    },
-    {
-      "label": "Contact",
+      "label": "Contact Us",
       "link": "/contact"
     }
   ],
