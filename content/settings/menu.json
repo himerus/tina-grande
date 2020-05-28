@@ -1,12 +1,12 @@
 {
   "menuItems": [
     {
-      "label": "Work",
-      "link": "work"
+      "label": "Offerings",
+      "link": "offerings"
     },
     {
-      "label": "Home",
-      "link": "/"
+      "label": "Work",
+      "link": "work"
     },
     {
       "label": "About",
