@@ -7,7 +7,22 @@ set -e
 # Source the profile to enable nvm.
 . ~/.profile
 
+
+printf "\n$INFO_SLUG Installing NPM project dependencies. \n" && \
+# Install basic project dependencies.
+if [ -e ${GATSBY_APPLICATION_PATH} ]; then
+    cd ${GATSBY_APPLICATION_PATH} && \
+    yarn install
+else
+    printf "\n$FATAL_SLUG ${GATSBY_APPLICATION_PATH} does not exist.\n"
+fi
+
+printf "\n$INFO_SLUG Installing global NPM dependencies. \n" && \
+# Install gatsby-cli if it isn't already.
 package='gatsby-cli'
 if [ `npm list -g | grep -c $package` -eq 0 ]; then
-    npm install $package --no-shrinkwrap
+    printf "\n$INFO_SLUG Installing gatsby-cli. \n"
+    yarn global add $package
+else 
+  printf "\n$INFO_SLUG gatsby-cli already installed. \n"
 fi
