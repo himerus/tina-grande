@@ -1,0 +1,12 @@
+version: "2.1"
+services:
+  cli:
+    labels:
+      # Set host and port of CLI container for Pattern Lab.
+      - io.docksal.virtual-host=${VIRTUAL_HOST}
+      - io.docksal.virtual-port=${GATSBY_APPLICATION_PORT}
+    expose:
+      - "8000"
+    env_file:
+      # Pass project-specific environment variables into cli container.
+      - ../.env

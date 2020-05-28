@@ -1,9 +1,9 @@
 {
-  "name": "tina-grande",
+  "name": "p2-rebrand",
   "private": true,
   "description": "A configurable starter for Gatsby & Tina",
   "version": "0.1.0",
-  "author": "Scott Byrne <scott.byrne@forestry.io>",
+  "author": "Jake Strawn <jstrawn@phase2technology.com>",
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",

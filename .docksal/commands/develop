@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+## Run gatsby develop
+# Usage: fin develop
+#: exec_target = cli
+
+set -e
+# Source the profile to enable nvm.
+. ~/.profile
+
+##################################################################
+##### Run NPM commands against the API.
+##################################################################
+if [ -e ${GATSBY_APPLICATION_PATH} ]; then
+    cd ${GATSBY_APPLICATION_PATH} && \
+    gatsby clean && gatsby develop --host=0.0.0.0
+else
+    printf "\n$FATAL_SLUG ${GATSBY_APPLICATION_PATH} does not exist.\n"
+fi

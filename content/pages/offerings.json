@@ -1,0 +1,13 @@
+{
+  "title": "Offerings",
+  "path": "/offerings",
+  "blocks": [
+    {
+      "_template": "TitleBlock",
+      "title": "Our Offerings",
+      "underline": true,
+      "content": "",
+      "center": true
+    }
+  ]
+}
