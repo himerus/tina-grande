@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+## Setup dependencies if they are missing
+# Usage: fin install
+#: exec_target = cli
+
+set -e
+# Source the profile to enable nvm.
+. ~/.profile
+
+package='gatsby-cli'
+if [ `npm list -g | grep -c $package` -eq 0 ]; then
+    npm install $package --no-shrinkwrap
+fi
