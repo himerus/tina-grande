@@ -1,0 +1,18 @@
+{
+  "title": "Work",
+  "path": "/work",
+  "blocks": [
+    {
+      "_template": "TitleBlock",
+      "title": "Our Work",
+      "underline": true,
+      "content": "",
+      "center": true
+    },
+    {
+      "content": "This is my content for the Work page. We build stuff for people.",
+      "center": true,
+      "_template": "ContentBlock"
+    }
+  ]
+}
