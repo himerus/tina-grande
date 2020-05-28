@@ -7,7 +7,7 @@
     }
   ],
   "hero": {
-    "headline": "Welcome to Tina Grande.",
+    "headline": "We are Phase2",
     "textline": "This template is filled with sample content to get you started.",
     "ctas": [
       {
@@ -23,7 +23,7 @@
         "primary": false
       }
     ],
-    "image": "../images/cafe-2.jpg",
+    "image": "../images/Collab_4.jpg",
     "large": true
   },
   "displayTitle": false,
