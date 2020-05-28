@@ -1,16 +1,16 @@
 {
   "menuItems": [
     {
-      "label": "News & Insights",
-      "link": "posts"
+      "label": "Work",
+      "link": "work"
     },
     {
       "label": "Offerings",
       "link": "offerings"
     },
     {
-      "label": "Work",
-      "link": "work"
+      "label": "News & Insights",
+      "link": "blog"
     },
     {
       "label": "About",
