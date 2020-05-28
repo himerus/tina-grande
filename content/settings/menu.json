@@ -2,7 +2,7 @@
   "menuItems": [
     {
       "label": "Work",
-      "link": "work"
+      "link": "/work"
     },
     {
       "label": "Offerings",
